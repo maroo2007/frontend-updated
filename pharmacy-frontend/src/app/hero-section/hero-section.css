@@ -1,0 +1,39 @@
+.hero {
+  background: #e8f5e9; /* Light green background */
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #2e7d32; /* Darker green */
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+}
